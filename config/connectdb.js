@@ -4,7 +4,7 @@ const connectDb =  async (DATABASE_URL)=>{
     try{
         console.log("running db ")
     const DB_OPTION ={
-        dbName:'sahildb1'
+        dbName:'ritikadb'
     }  
     // console.log("line numebr 9",DATABASE_URL)
     await mongoose.connect(DATABASE_URL,DB_OPTION)
